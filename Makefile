@@ -21,6 +21,6 @@ uninstall:
 	-rm /usr/bin/$(name)
 	@ echo -e "\033[0;31mUninstall Complete!\033[0m"
 
-clean: $(exec)
+clean:
 	-rm $(exec)
 	-rm src/*.o
