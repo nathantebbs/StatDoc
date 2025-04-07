@@ -1,7 +1,4 @@
 #include "include/lexer.h"
-#include <ctype.h>
-#include <stdlib.h>
-#include <string.h>
 
 lexer_T *init_lexer(char *contents) {
   lexer_T *lexer = calloc(1, sizeof(lexer_T));
