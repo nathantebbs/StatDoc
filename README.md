@@ -4,6 +4,8 @@ Hi! This project is currently in the early stages of development. Please see doc
 
 ## Using StatDoc
 
+Pull the GitHub repo
+
 ```bash
 git pull https://github.com/nathantebbs/StatDoc
 ```
@@ -15,6 +17,8 @@ cd StatDoc && make
 # Or to install statdoc to your /usr/bin/ folder
 cd StatDoc && sudo make install
 ```
+
+### Docker (recommended)
 
 To make checking out the project for yourself a little easier I have included a Dockerfile so you can build and run the project in a containerized environment!
 
@@ -32,6 +36,6 @@ Now, we can run a container from our docker image
 docker run -it statdoc:latest bash
 ```
 
-Since I am going to come back to this container for future builds, I like
-to keep the container on my PC and just start and stop it when I want.
-Consider adding the --rm flag if you are launching containers frequently!
+> Since I am going to come back to this container for future builds, I like
+> to keep the container on my PC and just start and stop it when I want.
+> Consider adding the --rm flag if you are launching containers frequently!
