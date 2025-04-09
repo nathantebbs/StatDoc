@@ -1,6 +1,7 @@
 # StatDoc Programming Language
 
-Hi! This project is a personal project for learning and currently it is in the early stages of development. Please see docs folder for more info :)
+> [!WARNING]
+> Hi! This project is a personal project for learning and currently it is in the early stages of development. Please see docs folder for more info :)
 
 ## Using StatDoc
 
