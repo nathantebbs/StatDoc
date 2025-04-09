@@ -5,6 +5,8 @@
 
 ## Using StatDoc
 
+### Installation
+
 Pull the GitHub repo
 
 ```bash
@@ -15,9 +17,6 @@ Build The Executable
 
 ```bash
 make
-```
-
-```bash
 sudo make install
 ```
 
@@ -36,12 +35,8 @@ docker build -t statdoc:latest .
 
 Now, we can run a container from our docker image
 ```bash
-docker run -it statdoc:latest bash
+docker run -it --rm statdoc:latest bash
 ```
-
-> Since I am going to come back to this container for future builds, I like
-> to keep the container on my PC and just start and stop it when I want.
-> Consider adding the --rm flag if you are launching containers frequently!
 
 You can now follow the same installation steps outlined above. Enjoy!
 
