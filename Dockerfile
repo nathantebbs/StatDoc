@@ -13,3 +13,4 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
 
 COPY ./src ./src
 COPY ./Makefile ./Makefile
+COPY ./googletest ./googletest
