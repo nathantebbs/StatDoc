@@ -1,8 +1,11 @@
 # StatDoc Programming Language
 
-Hi! This project is a personal project for learning and currently it is in the early stages of development. Please see docs folder for more info :)
+> [!WARNING]
+> *Hi! This project is a personal project for learning and currently it is in the early stages of development. Please see docs folder for more info :)*
 
 ## Using StatDoc
+
+### Installation
 
 Pull the GitHub repo
 
@@ -13,9 +16,8 @@ git pull https://github.com/nathantebbs/StatDoc
 Build The Executable
 
 ```bash
-cd StatDoc && make
-# Or to install statdoc to your /usr/bin/ folder
-cd StatDoc && sudo make install
+make && \
+sudo make install
 ```
 
 ### Docker (recommended)
@@ -33,19 +35,8 @@ docker build -t statdoc:latest .
 
 Now, we can run a container from our docker image
 ```bash
-docker run -it statdoc:latest bash
+docker run -it --rm statdoc:latest bash
 ```
 
-> Since I am going to come back to this container for future builds, I like
-> to keep the container on my PC and just start and stop it when I want.
-> Consider adding the --rm flag if you are launching containers frequently!
+You can now follow the same installation steps outlined above. Enjoy!
 
-Now that we have entered into our container we can simply follow the build instructions listed above. For the least amount of steps just use the default make target
-under the /code directory which you should start in.
-```bash
-cd /code
-make
-```
-
-This gives you a clean environment with all the dependencies for the project already installed. Just connect back to this container or create a new one from the Dockerfile
-to build and debug the code free from any issues caused by your personal development environment. Enjoy!
