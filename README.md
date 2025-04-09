@@ -16,7 +16,7 @@ git pull https://github.com/nathantebbs/StatDoc
 Build The Executable
 
 ```bash
-make
+make && \
 sudo make install
 ```
 
