@@ -1,6 +1,6 @@
 exec = statdoc.out
 name = statdoc
-sources = $(wildcard src/*.c)
+sources = $(wildcard *.c)
 obj = $(sources:.c=.o)
 flags = -g -Wall
 
@@ -20,5 +20,5 @@ uninstall:
 	@ echo -e "\033[0;31mUninstall Complete!\033[0m"
 
 clean:
-	-rm $(exec)
-	-rm src/*.o
+	rm -rf $(exec)
+	rm -rf *.o
