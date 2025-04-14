@@ -7,13 +7,13 @@
 
 ### Installation
 
-Pull the GitHub repo
+1. Pull the GitHub repo
 
 ```bash
 $ git pull https://github.com/nathantebbs/StatDoc
 ```
 
-Build The Executable
+2. Build The Executable
 
 ```bash
 $ make 
