@@ -1,7 +1,7 @@
 #! /bin/bash
 
 if [[ -d "/code" ]]; then
-	cd /code/googletest
+	cd /code/lib/googletest
 	mkdir build
 	cd build
 	cmake ..
