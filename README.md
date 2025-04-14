@@ -10,15 +10,18 @@
 Pull the GitHub repo
 
 ```bash
-git pull https://github.com/nathantebbs/StatDoc
+$ git pull https://github.com/nathantebbs/StatDoc
 ```
 
 Build The Executable
 
 ```bash
-make && \
-sudo make install
+$ make 
+$ sudo make install
 ```
+> [!NOTE]
+> *The Makefile for this project is stored in the src/ directory. Additionally, when using the uninstall target, this will
+> not remove build files.
 
 ### Docker (recommended)
 
