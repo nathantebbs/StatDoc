@@ -21,7 +21,7 @@ $ sudo make install
 ```
 > [!NOTE]
 > *The Makefile for this project is stored in the src/ directory. Additionally, when using the uninstall target, this will
-> not remove build files.
+not remove build files.*
 
 ### Docker (recommended)
 
